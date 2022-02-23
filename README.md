@@ -1,24 +1,17 @@
-# README
+# Teste ZRP - Pokémon
+## Sobre o teste
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Uma api que consuma a pokeapi e faça:
+- Dado um nome de pokémon, retornar suas habilidades em orden alfabética.
 
-Things you may want to cover:
 
-* Ruby version
+## Como rodar
+Para rodar, tem que ter uma versão do Ruby compatível com o Gemfile:
+```
+bundle install
+rails s
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Testing
+Para rodar os testes, rode `rspec`, assumindo que rodou anteriormente o `bundle install`.
+Para checar a cobertura de testes, abra o arquivo `index.html` que se encontra dentro da pasta `coverage`
